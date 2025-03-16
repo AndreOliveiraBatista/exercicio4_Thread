@@ -19,7 +19,7 @@ public class ThreadRace extends Thread{
 			System.out.println("pulo do sapo #" + tid + " = " + frogKick + " mts");
 			frogDistance += frogKick;
 				try {
-					sleep(frogKick);
+					sleep(10-frogKick);
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 				}
