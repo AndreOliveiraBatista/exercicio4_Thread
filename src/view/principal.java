@@ -8,7 +8,7 @@ public class principal {
 		int raceDistance = 10;
 		
 		for(int i = 0; i < 5; i++) {
-			ThreadRace tr = new ThreadRace(raceDistance);
+			ThreadRace tr = new ThreadRace(raceDistance, i);
 			tr.start();
 		}
 	}
